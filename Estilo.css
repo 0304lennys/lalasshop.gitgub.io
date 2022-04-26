@@ -1,0 +1,178 @@
+ /*codigo para fondo, img y/o color*/
+body{
+    background:#980A32;
+}
+/*codigo formato de texto*/
+h1{
+    size: 25px;
+font-style: Times New Roman;
+text-align: center;
+color: #021C48;
+}
+/*codigo formato de inf del creador*/
+p{
+font-size: 15px;
+font-style: Times New Roman;
+text-align: center;
+color:#021C48;
+
+}
+/*codigo para formato de tabla*/
+table{
+border-color: #610B0B;
+font-size: 12px;
+font-style: Times New Roman;
+text-align: center;
+border: 2;
+width: 90%;
+}
+/*formato de recuadros de tabla*/
+td{
+background-color: #F79F81;
+text-align: center;
+}
+/*formato color de tabla*/
+th{
+background-color: white;
+}
+/*formato de tabla de botones de direccion*/
+.sin{
+border-style: transparent;
+border:0;
+background-color: transparent;
+}
+/*tabla de contactos*/
+.con{
+border: 2;
+border-color: black;
+width: 30%;
+height: 20%;
+}
+/*tamaño de botones */
+.b{
+width: 150;
+height: 150;
+}
+.a{
+width: 300px;
+height: 150px;
+}
+/*tamaño de logo*/
+.j{
+width: 500;
+height: 300;
+}
+/*tamaño de imagenes en historia*/
+.g{
+width: 300;
+height: 150;
+}
+/*tamaño de imagenes en tabla de servicios*/
+.imagen{
+width: 300;
+height: 250;
+}
+.div1{
+background: #C25E7B;
+border-radius: 10px;
+margin: auto;
+}
+.div2{
+background: #D15D7E;
+border-radius: 10px;
+margin: auto;;
+}
+.div3{
+background: #C11849;
+border-radius: 10px;
+margin: auto;
+}
+.div4{
+background: #ABC8FA;
+border-radius: 10px;
+margin: auto;
+}
+.caja{
+height: 400px;
+width: 300px;
+border: 0px solid white;
+background: white;
+margin: 20px;
+color: black;
+text-align: center;
+font-family: "lato", sans-serif;
+display: inline-block;
+}
+.caja:hover{
+/* Colocar sombra al div*/
+    /* x y Radio color*/
+box-shadow: 0 0 20px white;
+/* Cambia el tamaño de escala del div*/
+transform: scale(1.3);
+}
+.caja-texto{
+padding-bottom: 5px;
+padding-top: 2px;
+font-size: 20px;
+color: light blue;
+font-weight: bold;
+}
+.texto-adicional{
+padding-top: 5px;
+font-size: 15px;
+}
+@font-face{
+	font-family:"mifuente";
+	src:url(RolasanSignature.ttf);
+}
+#fuente-RolasanSignature{
+	font-family:"mifuente";
+	}
+
+#fuente-google{
+font-family: 'Libre Baskerville', serif;
+}
+
+.navegacion{
+	display:flex;
+	height:100px;
+}
+
+.navegacion-item{
+	flex:1;
+	color:#FF6433;
+	font-weight:bold;
+	font-size:15px;
+	display:flex;
+	transition:flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+	}
+	
+.navegacion-item:hover .navegacion-titulo{
+	transform:rotate(-90deg);
+	margin:0;
+	transform:transform 0.2s 0.2s
+	
+}
+	
+.navegacion-item:nth-child(1){
+	Background:#FF9978
+}
+	
+.navegacion-item:nth-child(2){
+	background:#FCC2AF
+}
+.navegacion-item:nth-child(3){
+	Background:#FF9978
+}
+	
+.navegacion-item:nth-child(4){
+	background:#FCC2AF
+	
+ .navegacion-titulo{
+ 
+	
+	
+	
+	
